@@ -1,0 +1,31 @@
+{
+  "name": "isc-radius",
+  "version": "0.2.1",
+  "description": "ISC RADIUS Framework",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "docs": "jsdoc -c ./.jsdoc.conf.json"
+  },
+  "keywords": [
+    "radius",
+    "aaa"
+  ],
+  "author": "Internet Systems Consortium, Inc.",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "docdash": "^1.1.1",
+    "jsdoc": "^3.6.2",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.isc.org/isc-projects/isc-radius.git"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "recurseDepth": 1,
+  "opts": {
+    "recurse": true,
+    "destination": "./docs/",
+	"template": "node_modules/docdash"
+  },
+  "source": {
+    "include": ["lib"]
+  },
+  "sourceType": "module",
+  "tags": {
+    "dictionaries": ["jsdoc"]
+  }
+}
